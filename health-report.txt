@@ -1,0 +1,28 @@
+==================================
+       LINUX HEALTH REPORT
+==================================
+Hostname : ANAND
+Date     : Tue Oct 27 18:57:06 UTC 2026
+Uptime   : up 6 hours, 9 minutes
+
+----- MEMORY -----
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       1.4Gi       109Mi        45Mi       2.4Gi       2.3Gi
+Swap:          1.0Gi       1.5Mi       1.0Gi
+
+----- ROOT DISK -----
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdf       1007G  1.6G  955G   1% /
+
+----- CPU LOAD -----
+0.57 0.38 0.25 1/707 3224
+
+----- TOP CPU PROCESSES -----
+    PID COMMAND         %CPU %MEM
+   3062 packagekitd      0.2  0.5
+   3067 polkitd          0.1  0.2
+    103 systemd-udevd    0.0  0.2
+      1 systemd          0.0  0.3
+    644 docker-desktop-  0.0  0.6
+
+Health report completed.
